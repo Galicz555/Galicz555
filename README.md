@@ -21,6 +21,7 @@ Based in Budapest (CET), working remotely. **Open to contract and full-time role
 
 | Project | What it shows |
 | --- | --- |
+| [**aidm**](https://github.com/Galicz555/aidm) | Voice-first AI game master: WebRTC → speech-to-text → LLM orchestrator → text-to-speech as separate services behind an LLM gateway that switches between local llama.cpp models and cloud APIs. Architecture decisions as ADRs, a simulated-play regression loop scored by an LLM judge, sanitised rendering and path-contained vault access. Python, FastAPI, Svelte, Docker. |
 | [**szamlak**](https://github.com/Galicz555/szamlak) | Local bill tracker: Gmail over IMAP → LLM extraction verified against the PDF text → payment matching over PSD2 open banking. Strict validation at every boundary, an extraction eval gated on zero *accepted-but-wrong* results, DKIM-checked mail admission. TypeScript, SQLite, Hono. |
 | [**bestLocation**](https://github.com/Galicz555/bestLocation) | Ranks all 3,178 Hungarian settlements by a user-weighted mix of ~20 open-data metrics (schools, commute, prices, air quality, landscape). A Python data pipeline over a dozen public sources with per-source licence tracking, a framework-free MapLibre front end with rank-based scoring tests, and Docker. |
 
