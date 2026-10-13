@@ -1,18 +1,33 @@
-### Hi there 👋
+## Mihály Galicz
 
-<!--
-**Galicz555/Galicz555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack engineer — TypeScript and Python — building production systems with LLMs inside them.
+Six years of shipping web applications; before that, seven years as an officer in the Hungarian
+Defence Forces.
 
-Here are some ideas to get you started:
+Based in Budapest (CET), working remotely. **Open to contract and full-time roles.**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I work on
 
-[![An image of @galicz555's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/galicz555)](https://holopin.io/@galicz555)
+- **LLM pipelines that have to be right.** Document extraction for invoices and receipts, bill
+  processing, structured output from messy real-world input. Model output is untrusted input:
+  validated against a schema, checked against the source, and measured on a labelled test set
+  before it is allowed to act.
+- **End-to-end products.** Schema, API, UI, integrations, Docker deployment — including payments
+  and tax-authority (NAV) e-invoicing, where mistakes cost money.
+- **Evaluating models and agents on numbers**, not vendor claims: benchmark harnesses, holdout
+  sets, regression loops.
+
+### Selected public work
+
+| Project | What it shows |
+| --- | --- |
+| [**szamlak**](https://github.com/Galicz555/szamlak) | Local bill tracker: Gmail over IMAP → LLM extraction verified against the PDF text → payment matching over PSD2 open banking. Strict validation at every boundary, an extraction eval gated on zero *accepted-but-wrong* results, DKIM-checked mail admission. TypeScript, SQLite, Hono. |
+
+### Stack
+
+TypeScript · Node.js · NestJS · Next.js · React · Vue · Svelte · Python · FastAPI ·
+PostgreSQL · SQLite · Docker · llama.cpp · Claude API
+
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/mig555/)
