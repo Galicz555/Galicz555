@@ -6,6 +6,9 @@ Defence Forces.
 
 Based in Budapest (CET), working remotely. **Open to contract and full-time roles.**
 
+Most of my client work lives in private GitLab repositories; the contribution graph mirrors
+those days without their content.
+
 ### What I work on
 
 - **LLM pipelines that have to be right.** Document extraction for invoices and receipts, bill
